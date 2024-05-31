@@ -1,0 +1,124 @@
+body {
+    background: rgb(249, 243, 156);
+    background: linear-gradient(90deg, rgba(249, 243, 156, 1) 0%, rgba(117, 90, 144, 0.7315301120448179) 0%, rgba(235, 224, 230, 1) 0%, rgba(32, 18, 231, 1) 0%, rgba(251, 248, 247, 1) 0%, rgba(255, 254, 254, 1) 0%, rgba(251, 248, 247, 1) 0%, rgba(252, 249, 250, 1) 79%, rgba(250, 210, 230, 1) 100%, rgba(246, 240, 248, 1) 100%, rgba(247, 243, 249, 1) 100%, rgba(236, 206, 241, 1) 100%, rgba(150, 36, 224, 1) 100%, rgba(198, 7, 174, 1) 100%, rgba(218, 168, 217, 1) 100%, rgba(160, 15, 170, 1) 100%, rgba(249, 177, 211, 1) 100%, rgba(239, 187, 211, 1) 100%, rgba(238, 159, 196, 1) 100%, rgba(244, 86, 158, 1) 100%, rgba(213, 41, 127, 1) 100%);
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+}
+
+.header img {
+    margin-left: 70px;
+   
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration:none ;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header-right {
+    float: right;
+}
+
+
+.header input {
+    margin-right: 80px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+        conic-gradient(from 162deg at 76% 17%, rgba(26, 49, 221, 0.61) 0%, #b515bc 100%) 4% 94%/199% 195%,
+        linear-gradient(142deg, #9601f9 0%, transparent 45.439%, rgba(219, 12, 91, 0.75) 100%),
+        linear-gradient(274deg, #f0029e 0%, #e31d04 55.086%, #dc3e0f 85.893%, #e514d2 100%);
+    border-width: 0 !important;
+}
+
+.header a:hover {
+    text-decoration: underline black;
+}
+
+.section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section h1 {
+    margin-left: 70px;
+    font-size: 50px;
+    
+}
+
+.section p {
+    margin-top: 27px;
+    margin-left: 70px;
+}
+
+.section input {
+    margin-left: 70px;
+    background: rgb(249, 243, 156);
+    background: linear-gradient(90deg, rgba(249, 243, 156, 1) 0%, rgba(235, 224, 230, 1) 0%, rgba(32, 18, 231, 1) 0%, rgba(251, 248, 247, 1) 0%, rgba(255, 254, 254, 1) 0%, rgba(5, 23, 214, 1) 0%, rgba(59, 37, 223, 0.7315301120448179) 0%, rgba(65, 40, 223, 1) 0%, rgba(185, 87, 230, 1) 100%, rgba(245, 241, 249, 1) 100%, rgba(250, 210, 230, 1) 100%, rgba(246, 240, 248, 1) 100%, rgba(247, 243, 249, 1) 100%, rgba(236, 206, 241, 1) 100%, rgba(150, 36, 224, 1) 100%, rgba(198, 7, 174, 1) 100%, rgba(218, 168, 217, 1) 100%, rgba(160, 15, 170, 1) 100%, rgba(249, 177, 211, 1) 100%, rgba(239, 187, 211, 1) 100%, rgba(238, 159, 196, 1) 100%, rgba(244, 86, 158, 1) 100%, rgba(213, 41, 127, 1) 100%);
+}
+
+.section img {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    height: 570px;
+    margin-top: 10px;
+
+
+}
+
+.heading1 {
+    color: #511154;
+    font-weight: bolder;
+}
+
+
+.heading3 {
+    color: #d752de;
+    font-weight: bolder;
+}
+
+.content {
+    text-align: left;
+}
+
+@media screen and (max-width:500px) {
+    .header a {
+          float: none;
+          display: block;
+          text-align: left;
+    }
+
+    .header-right {
+           float: none;
+    }
+
+}
+
+
+@media  screen and (max-width:375px) {
+        .header a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+        .header-right{
+            float: none;
+        }
+}
+
+
